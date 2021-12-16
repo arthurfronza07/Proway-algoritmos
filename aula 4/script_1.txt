@@ -1,0 +1,12 @@
+--para criar uma tabela utilize CREATE TABLE + nmome da tabela
+--demtrp dps () informar campo a campo com seus atributos
+--separar os campos por VIRGULA
+
+create table usuario (
+id integer primary key autoincrement unique, 
+nome text not null,
+email text not null,
+senha text not null,
+obs text
+)
+

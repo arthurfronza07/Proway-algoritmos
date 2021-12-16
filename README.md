@@ -1,1 +1,2 @@
-# Proway-algoritmos
+# Proway-algoritmos 
+Curso avançadíssimo de algortimos
