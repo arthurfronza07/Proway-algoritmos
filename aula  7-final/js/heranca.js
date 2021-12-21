@@ -67,6 +67,28 @@ class pessoa {
             this.qtdProfessores=qtdProfessores
             //os atributos herdados repasso para o construtor da SUPER CLASSE
             super(nome,idade)
+            this.qtdProfessores=qtdProfessores
         }
         
     }
+class Aluno extends Pessoa{
+}
+class Professor extends Pessoa{
+}
+let prof1= new Professor("Oliota",32,15)
+console.log(prof1);
+console.log(prof1.nome);
+console.log(prof1.idade);
+console.log(prof1.qtdAlunos);
+
+    let paulo = new Diretor("paulo Kano",80,30)
+    paulo.altura=1.5
+    paulo.salario=2500
+    console.log(paulo);
+
+    //professor
+    //nome,idade,qtdAlunos
+    //meApresentar()
+
+
+
